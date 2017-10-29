@@ -1014,7 +1014,7 @@ a:hover {
 }
 
 .headerV6-bg2 {
-    background: transparent url("../img/header-bg13.png") center no-repeat;
+    background: transparent url("../img/console_01.png") center no-repeat;
     background-size: cover
 }
 
@@ -1620,7 +1620,7 @@ a:hover {
 }
 
 .contentV5 {
-    padding: 120px 0;
+    padding: 120px 0 0 0;
     background: #fff;
     /* color: #1a1b1e; */
 }
@@ -1633,7 +1633,7 @@ a:hover {
     font-family: 'Lora', serif;
     color: #000;
     text-align: center;
-    margin: 0 auto
+    margin: 0 auto 80px auto;
 }
 
 .contentV5__item {
@@ -1666,7 +1666,7 @@ a:hover {
 }
 
 .contentV6 {
-    padding: 120px 0
+    padding: 10px 0 0 0;
 }
 
 .contentV6__name {
@@ -1680,7 +1680,7 @@ a:hover {
 }
 
 .contentV6__item {
-    margin-bottom: 40px
+    margin-bottom: 0px
 }
 
 .contentV6__header {
@@ -1727,7 +1727,7 @@ a:hover {
 }
 
 .contentV7 {
-    padding: 120px 0
+    padding: 200px 0 0 0;
 }
 
 .contentV7__text {
