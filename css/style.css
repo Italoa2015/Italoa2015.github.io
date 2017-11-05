@@ -4066,4 +4066,15 @@ a:hover {
         min-width: 300px;
         margin-bottom: 20px
     }
+    .text-center {
+        text-align: center !important;
+    }
+    .py-6 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important
+    }
+    .px-3 {
+        padding-right: 16px !important;
+        padding-left: 16px !important
+    }
 }
