@@ -3291,6 +3291,13 @@ a:hover {
     margin: 0
 }
 
+.copyright {
+    text-align: center;
+    margin: 0 auto 15px auto;
+    font-size: 13px;
+    color: #C0C0C0;
+}
+
 @media (min-width: 769px) and (max-width: 1050px) {
     .header__link {
         margin-left: 30px
