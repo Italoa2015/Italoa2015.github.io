@@ -6,12 +6,13 @@
 	<title>Wenjun Tao</title>
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora" rel="stylesheet"> -->
 </head>
 
 <body>
 
-	<section class="headerV6 headerV6-bg2">
+	<!-- header -->
+	<section class="headerV6 headerV6-bg2" style="background: transparent url('./img/backend-01.jpg') center no-repeat">
 		<div class="container-fluid">
 			<header class="header__head clearfix">
 				<div class="header__logoBody">
@@ -19,162 +20,84 @@
 						<h1 class="header__logo">Wenjun Tao</h1>
 					</a>
 				</div>
-				<div class="header__menuBody visible-xs">
-					<a href='#' class="header__menuIcon">
-						<span class="header__menuIcon__topLine"></span>
-						<span class="header__menuIcon__midleLine"></span>
-						<span class="header__menuIcon__bottomLine"></span>
-					</a>
-				</div>
 			</header>
 		</div>
 		<div class="container">
-			<h2 class="headerV6__header">HBO Media Delivery System Front-End.<br/>
-				HBO媒体后台管理系统
+			<h2 class="headerV6__header" style="font-size:32px;">Backend Development related projects
+				<br/> 后端开发相关项目
 				<br/>
 				<br/>
 			</h2>
 		</div>
 	</section>
 
-
-
-	<section class="contentV5">
-		<div class="container">
-			<h2 class="contentV7__text">
-				Pwc SDC help American giant media company HBO to create their media service delivery platform to support their video business
-				like TV shows, live stream etc.
-				<br>
-				<br> This project is conducted by team work. I was in charge of the font-end develop with my mentor Ron Wang and Daniel Cai.
-			</h2>
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_04.png" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class="contentV7">
+	<!-- new OA -->
+	<section class="contentV6" style="margin-top:50px">
 		<div class="container">
 			<p class="contentV7__text">
-				We use angular to build the SPA, and use a lot of angular plugins like angular-bootstrap, angular-resource, ng-grid, angular-nvd3,
-				angular-bootstrap, jsoneditor, moment etc to convey a great user experience.
+				新OA系统是为公司内部服务的人力资源类管理系统，包括请假流程审批、员工信息管理、离职管理、证书管理、通用信息管理等功能模块。采用angular+springMVC来进行前后台的开发。
 			</p>
-		</div>
-	</section>
-
-
-
-	<section class="contentV6">
-		<div class="container">
 			<div class="text-center">
 				<div class="contentV6__imgBody">
-					<img src="img/console_03.png" alt="" class="contentV6__img">
+					<img src="img/backend-02.jpg" alt="" class="contentV6__img">
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-	<section class="contentV6 section2" style="margin-top: 100px;">
+	<section class="contentV6 section" style="margin-top: 15px;">
 		<div class="container">
 			<div class="contentV6__item clearfix">
-				<div class="contentV6__name">
-					<h2 class="contentV7__text">Beyound web application, we also build some micro services like locker, user-mgmt to support front-end and back-end.</h2>
-				</div>
-				<div class="contentV6__info">
-					<p class="contentV6__text">Locker is a micro service which is support other services to manage thread resource.</p>
-					<p class="contentV6__text">User-mgmt service is to support front-end to create, update, remove users, and authorize privilege to users.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-
-	<section class="contentV6">
-		<div class="container">
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_02.png" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class="contentV6">
-		<div class="container">
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_06.jpg" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class="contentV6">
-		<div class="container">
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_05.jpg" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class="contentV6">
-		<div class="container">
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_07.jpg" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-	<section class="contentV6">
-		<div class="container">
-			<div class="text-center">
-				<div class="contentV6__imgBody">
-					<img src="img/console_08.jpg" alt="" class="contentV6__img">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="contentV6 section" style="margin-top: 100px;">
-		<div class="container">
-			<div class="contentV6__item clearfix">
-				<div class="contentV6__info" style="width: 80%;margin-left: 4%;">
-					<p class="contentV6__text" style="font-size:16px;"><span style="font-weight: bold;font-size: 20px;">项目心得：</span><br>
-						01.从技术角度来说，这个项目中使用了当时比较流行的angular1 + node + mongoDB的前后台技术栈，这是一次较为大胆的尝试，尤其在为一个内部项目做技术选型时，没有选择jQuery或者EXT等相对“成熟”的库或框架，积极拥抱变化，在这个过程中，体验了新技术、新架构带来的好处如更快速的构建出更高效的SPA应用，
-						提升了用户的体验，同时也对其弊端如mongo不支持事务、angular1的性能问题等有了更为清晰的认识。<br>
-						02.从项目的团队合作、开发流程方面也是收获蛮大，项目遵守敏捷开发思想，以2周为一个sprint周期进行快速迭代式的开发，同时配合上Jira（issue管理平台）、Wiki（document管理平台）、Gitlab（代码管控平台）、Slack（商业领域最流行的实时通讯工具），
-						让团队合作更加默契无间，为最后打造出一款合格乃至优秀的系统提供了坚实的基础保障。<br>
-						03.同时console项目依托于HBO ESP平台，全面采用了AWS云上部署，jekins进行自动化部署，实时的负载均衡支持，通过Restful API与后台的微服务子系统间进行着紧密、安全的数据交换。通过对这套流程的了解与熟悉，更加对现代化的软件开发流程加深了认识。
+				<div class="contentV6__info" style="width: 80%;margin-left:10%;">
+					<p class="contentV6__text" style="font-size:14px;">
+						<span style="font-weight: bold;font-size: 16px;">项目心得：</span>
+						<br>在新OA系统的开发过程中，我们在老OA系统的基础之上进行了若干优化，重新设计了UI、精简了功能，优化了工作流。通过这些改进与优化，使我了解到任何项目，如果想让它发挥
+						出最大的价值，都要从用户的角度出发去思考问题，不断的优化，提升用户使用的体验。
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<div style="width:100%;height:10px;border-top:dashed 1px #ccc;"></div>
+
+	<!-- Tcexam -->
+	<section class="contentV7" style="padding:50px 0 0 0;">
+		<div class="container">
+			<p class="contentV7__text">
+				SDC Exam系统是公司内部的一套用于员工技能考核、社招笔试的web系统。系统包含有题库管理、考试管理、考卷管理、试卷分析等功能模块。采用php进行前后台的开发。
+			</p>
+		</div>
+	</section>
+	<section class="contentV6">
+		<div class="container">
+			<div class="text-center">
+				<div class="contentV6__imgBody" style="margin-top:10px;">
+					<img src="img/backend-03.jpg" alt="" class="contentV6__img">
+					<div style="width:100%;height:10px;border-top:dashed 1px #ccc;margin-top:50px;"></div>
+					<img src="img/backend-04.jpg" alt="" class="contentV6__img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contentV6 section" style="margin-top: 15px;">
+		<div class="container">
+			<div class="contentV6__item clearfix">
+				<div class="contentV6__info" style="width: 80%;margin-left:10%;">
+					<p class="contentV6__text">
+						<span style="font-weight: bold;font-size: 16px;">项目心得：</span><br>
+						SDC Exam是基于github上的开源系统Tcexam进行改造，其在功能上已经较为完善，但界面相对过时，无法满足现在的需求，所以我们在调试部署好系统后，
+						重点工作都放在题库整理与UI的设计上，在这个过程中，我们使用了符合公司规范的配色与字体、logo，删去了很多不必要的界面元素，一再精简，最大程度
+				        保证界面的清爽与用户体验的流畅。同时项目使用容器docker+xampp进行部署，非常的快捷、高效。
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div style="width:100%;height:10px;border-top:dashed 1px #ccc;"></div>
 
 	<footer>
 		<p class="copyright">© 2017 italoa.com. All rights reserved.</p>
 	</footer>
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="js/slick.min.js"></script>

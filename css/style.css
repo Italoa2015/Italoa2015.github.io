@@ -1021,7 +1021,7 @@ a:hover {
 .headerV6__header {
     max-width: 900px;
     font-family: 'Lora', serif;
-    font-size: 42px;
+    font-size: 32px;
     color: #fff;
     margin: 300px 0 0 0
 }
@@ -1620,7 +1620,7 @@ a:hover {
 }
 
 .contentV5 {
-    padding: 120px 0 0 0;
+    padding: 60px 0 0 0;
     background: #fff;
     /* color: #1a1b1e; */
 }
@@ -1692,7 +1692,7 @@ a:hover {
 }
 
 .contentV6__text {
-    font-size: 19px;
+    font-size: 14px;
     line-height: 28px;
     color: #74767f;
     font-family: 'Lato', sans-serif;
@@ -1727,18 +1727,18 @@ a:hover {
 }
 
 .contentV7 {
-    padding: 200px 0 0 0;
+    padding: 100px 0 0 0;
 }
 
 .contentV7__text {
     color: #1a1b1e;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 32px;
     font-family: 'Lora', serif;
     max-width: 632px;
     width: 100%;
     margin: 0 auto;
-    text-align: center
+    text-align: left;
 }
 
 .contentV7__img {
@@ -3536,7 +3536,7 @@ a:hover {
     }
     .headerV6__header {
         margin-top: 200px;
-        font-size: 35px
+        font-size: 32px
     }
     .headerV6__link {
         margin-right: 30px
